@@ -1,4 +1,4 @@
-var variable = 0; // alcance local, el valor puede cambiar
+/* var variable = 0; // alcance local, el valor puede cambiar
 const constante = "Constante"; // NO puede cambiar el valor. Contraseñas, apikey, email
 
 //constante = "Cambio";
@@ -11,13 +11,13 @@ for(let i=0; i<5; i++){
 
 for(var j=0;j<5;i++){
     console.log(j);
-}
+} */
 
 //si quiero que mi variante cambie a lo largo del codigo, uso var. si es solo para un loop o condicional, usamos let
 
 /* FUNCIONES FLECHAS */
 
-function sumatoria(par1, par2){
+/* function sumatoria(par1, par2){
     return par1+par2;
 }
 
@@ -26,7 +26,7 @@ console.log(sumatoria(1, 2));
 var sumatoriaFlecha = (par1, par2) => par1+par2; 
 
 var sumF = sumatoriaFlecha(2,3);
-console.log(sumF); //las funciones flechas son mas cortas en sintaxis
+console.log(sumF); //las funciones flechas son mas cortas en sintaxis */
 
 /*
 
@@ -66,5 +66,7 @@ for(var i=0; i<nums.length;i++){
 //    console.log(num);
 //}
 //nums.forEach(imprime);
+
+console.log("hola");
 
 console.log("hola");
